@@ -61,6 +61,7 @@
 
     },
 
+    //computed properties
     computed:{
       numberMust() {
         let res = this.Inputn.match(/^[0-9]+$/)
