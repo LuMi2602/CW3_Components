@@ -152,7 +152,7 @@
           </div>
         </div>
 
-
+         <!-- code to displays lessons when page is loaded -->
         <div id="item" v-for="lesson in lessons" :key="lesson.id">
         <img id="img" :src="lesson.Image" />
         <p>{{ lesson.Subject}}</p>
