@@ -63,6 +63,7 @@ app.post('/order', async (req, res) => {
 
 });
 
+//code to obtain lessons from mongodb
 app.put('/lesson/:id', async (req, res) => {
     const result = await db.collection("lesson");
     console.log(req.body);
