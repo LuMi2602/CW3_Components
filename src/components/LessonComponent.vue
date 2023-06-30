@@ -2,6 +2,8 @@
   <div id="app">
     <h2>Lesson List</h2>
     <ul>
+
+      <!-- code for sorting the lessons -->
       <div>
           <h3>Sort:</h3>
           <input type="radio" id="subjectSort" value="subjectSort" v-model="sortOption" checked="true">
