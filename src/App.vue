@@ -16,6 +16,7 @@ export default {
 };
 </script>
 
+<!-- css code for styling -->
 <style>
     body {
       color: white;
