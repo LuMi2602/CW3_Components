@@ -5,6 +5,7 @@
       {{cartCount}}
 
       <p>
+        <!-- code to allow the users enter their number and number to submit order -->
           <strong>First Name:</strong>
           <input type="text" v-model="inputl" >
         </p>
